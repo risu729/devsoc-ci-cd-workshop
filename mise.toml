@@ -1,0 +1,11 @@
+[tools]
+bun = "1.3.12"
+
+[tasks.build]
+run = "bun run build"
+
+[prepare.bun]
+auto = true
+
+[settings]
+experimental = true
