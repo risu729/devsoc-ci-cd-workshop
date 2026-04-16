@@ -2,9 +2,7 @@
 layout: section
 ---
 
-# Hands-on and close
-
-## Domains, Docker in context, and one realistic shipping workflow
+# Domains / Docker
 
 ---
 
@@ -99,16 +97,3 @@ CMD ["bun", "run", "start"]
 - Kubernetes helps run containers at scale, but it is not a beginner deployment default
 - Self-hosted Kubernetes trades vendor lock-in for much higher ops responsibility
 - Good principle: portability matters, but simplicity matters more for most student projects
-
----
-layout: intro
-class: text-center
----
-
-# Q&A / project clinic
-
-Bring one real idea and decide:
-
-- `Vercel` or `Cloudflare Workers`?
-- `Neon`, `Supabase`, `Firestore`, or `MongoDB Atlas`?
-- Serverless or always-on backend?
