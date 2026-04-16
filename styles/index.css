@@ -1,0 +1,63 @@
+.slidev-page {
+  /* Bricks uses transparent SVG overlays, so set the base canvas color here. */
+  background-color: #fdf4cf;
+}
+
+.slidev-layout,
+.slidev-page {
+  font-size: 1.22rem;
+  line-height: 1.4;
+}
+
+.slidev-layout h1 {
+  font-size: 2.35rem;
+  line-height: 1.05;
+  margin-bottom: 0.5rem;
+}
+
+.slidev-layout h2 {
+  font-size: 1.3rem;
+  line-height: 1.15;
+}
+
+.slidev-layout p,
+.slidev-layout li,
+.slidev-layout td,
+.slidev-layout th,
+.slidev-layout blockquote {
+  font-size: 1em;
+}
+
+.slidev-layout ul,
+.slidev-layout ol {
+  padding-left: 1.2rem;
+}
+
+.slidev-layout li {
+  margin: 0.22rem 0;
+}
+
+.slidev-layout table {
+  width: 100%;
+  font-size: 0.72em;
+  line-height: 1.2;
+}
+
+.slidev-layout th,
+.slidev-layout td {
+  padding: 0.35rem 0.45rem;
+  vertical-align: top;
+}
+
+.provider-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.75rem;
+}
+
+.provider-icon {
+  width: 1.6rem;
+  height: 1.6rem;
+  object-fit: contain;
+}
